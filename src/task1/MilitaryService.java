@@ -13,6 +13,9 @@ public class MilitaryService implements NationalService {
 	}
 	
 	public void work() {
-		return;
+		if(this.daysLeft > 0) {
+		this.daysLeft -= 1;
+		}
 	}
+	
 }

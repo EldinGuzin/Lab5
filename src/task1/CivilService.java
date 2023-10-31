@@ -9,7 +9,9 @@ public class CivilService implements NationalService {
 	}
 	
 	public void work() {
-		return;
+		if(this.daysLeft > 0) {
+		this.daysLeft -= 1;
+		}
 	}
 	
 	public int getDaysLeft() {
