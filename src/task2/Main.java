@@ -22,14 +22,16 @@ public class Main {
 //		System.out.println(cd3);
 		
 		
-		Box box = new Box(10);
+//		Box box = new Box(10);
+//		
+//		box.add(new Book("Fedor Dostojevski", "Crime and Punishment", 2));
+//		box.add(new Book("Robert Martin", "Clean Code", 1));
+//		box.add(new Book("Kent Beck", "Test Driven Development", 0.5));
+//		
+//		
+//		System.out.println(box);
+//		
 		
-		box.add(new Book("Fedor Dostojevski", "Crime and Punishment", 2));
-		box.add(new Book("Robert Martin", "Clean Code", 1));
-		box.add(new Book("Kent Beck", "Test Driven Development", 0.5));
-		
-		
-		System.out.println(box);
 		
 	}
 
