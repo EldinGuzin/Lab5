@@ -13,8 +13,8 @@ public class CD implements ToBeStored {
 	}
 	
 	
-	
-	public double weight() {
+	@Override
+	public double getWeight() {
 		return 0;
 	}
 	
